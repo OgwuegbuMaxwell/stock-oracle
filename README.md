@@ -26,9 +26,15 @@ Stock Oracle is a web application designed to predict stock prices using machine
 
 ### Home Page
 Homepage of the app.
+
 ![Screenshot (288)](https://github.com/user-attachments/assets/f006e2a3-12a6-440a-9a59-54389b083bfe)
 
 
+
+### User Regitration API Enpoint
+Endpoint for user registration
+
+![Screenshot (292)](https://github.com/user-attachments/assets/2d78892f-e124-4f04-8f31-fc49a88be946)
 
 
 
