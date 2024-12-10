@@ -38,3 +38,21 @@ Endpoint for user registration
 
 
 
+### User Registration Fronend with react
+
+Registration Form
+Simple and intuitive user registration form.
+
+![Screenshot (303)](https://github.com/user-attachments/assets/0bb54449-03b7-4df2-bb1e-e7dac510588e)
+
+
+Successful Registration
+Feedback on successful user registration.
+
+![Screenshot (304)](https://github.com/user-attachments/assets/9ba1cafc-a6b9-4e0d-9191-85bbaf5cd8d3)
+
+
+Validation Errors
+Error handling for validation issues during registration.
+
+![Screenshot (305)](https://github.com/user-attachments/assets/60ed0e11-ee37-4b13-91a7-13c9c61592c4)

@@ -1,5 +1,7 @@
 import React from 'react'
 import Button from './Button'
+import Header from './Header'
+import Footer from './Footer'
 
 const Main = () => {
   return (
@@ -11,7 +13,7 @@ const Main = () => {
                 <p className='text-light lead'>
                     This application utilizes cutting-edge machine learning techniques, specifically employing Keras with an LSTM model, integrated seamlessly within the Django framework. By analyzing crucial market data, including 100-day and 200-day moving averages, Stock Oracle delivers powerful insights into future stock price movements. These indicators are key metrics used by financial analysts worldwide to support informed trading and investment decisions.
                 </p>
-                <Button text="Login" class="btn-info"/>
+                <Button text="Login" class="btn-info"  url="/login" />
             </div>
         </div>
     </>
