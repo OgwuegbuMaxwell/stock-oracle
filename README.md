@@ -60,7 +60,7 @@ Endpoint for user registration
 
 ### User Login page frontend
 
- - Registration Form
+ - Login Form
 
  ![Screenshot (306)](https://github.com/user-attachments/assets/4e0a90dd-ea61-4636-a4a8-addec2a92072)
 
