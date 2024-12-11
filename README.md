@@ -56,3 +56,14 @@ Endpoint for user registration
  - Error handling for validation issues during registration.
 
 ![Screenshot (305)](https://github.com/user-attachments/assets/60ed0e11-ee37-4b13-91a7-13c9c61592c4)
+
+
+### User Login page frontend
+
+ - Registration Form
+
+ ![Screenshot (306)](https://github.com/user-attachments/assets/4e0a90dd-ea61-4636-a4a8-addec2a92072)
+
+
+
+
