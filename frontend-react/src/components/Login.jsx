@@ -21,17 +21,17 @@ const Login = () => {
         e.preventDefault();
         setLoading(true)
 
-        const userData = {username, password}
+        const authData = {username, password}
         // console.log("User Data: ", userData)
 
         try {
-            const response = await axios.post('http://127.0.0.1:8000/api/v1/token/', userData)
+            const response = await axios.post('http://127.0.0.1:8000/api/v1/token/', authData)
             // console.log("Response Data: ", response.data)
             localStorage.setItem('accessToken', response.data.access)
             localStorage.setItem('refreshToken', response.data.refresh)
             console.log('Login Successful')
             setIsLoggedIn(true)
-            navigate('/')
+            navigate('/dashboard')
         } catch (error) {
             console.error('Invalid Credentials')
             setError('Invalid Credentials')
