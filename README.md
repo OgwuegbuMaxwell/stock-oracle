@@ -11,13 +11,44 @@ Stock Oracle is a web application designed to predict stock prices using machine
  - Modern Tech Stack: Built using Django for backend, Django REST Framework for APIs, and React for the frontend.
 
 
+###  Input
+
+ - Users can input a stock symbol (ticker).
+
+
+
+### Virtualization
+
+ - Closing Price: Line chart of the stock's historical closing prices.
+
+ - 100-Day Moving Average: Smoothens short-term price fluctuations.
+
+ - 200-Day Moving Average: Identifies long-term trends.
+
+ - Final Prediction Plot: Compares predicted prices with original prices.
+
+
+### Model Evaluation
+
+ - Mean Square Error (MSE): Average squared difference between actual and predicted values.
+
+ - Root Mean Square Error (RMSE): Square root of MSE.
+
+ - R-Squared (R²): Measures how well the predictions fit the actual data.
+
+
+
 ## Technologies Used
 
  - Backend: Django, Django REST Framework
 
  - Frontend: React, JavaScript
 
- - Machine Learning: Keras, LSTM model
+ - Machine Learning: TensorFlow/Keras (LSTM Model)
+
+ - Data: Fetched using yfinance (Yahoo Finance API)
+
+ - Visualization: Matplotlib
 
 
 
@@ -65,5 +96,12 @@ Endpoint for user registration
  ![Screenshot (306)](https://github.com/user-attachments/assets/4e0a90dd-ea61-4636-a4a8-addec2a92072)
 
 
+### Dashboard - prediction page
 
+
+![Screenshot (307)](https://github.com/user-attachments/assets/0d89653b-e2d5-47d2-a931-87673adc56fc)
+
+
+
+![Screenshot (308)](https://github.com/user-attachments/assets/73b99bb9-1522-48eb-bae3-7aeacfb7fd95)
 
